@@ -8,7 +8,7 @@ Every DDL operation, should be done with SQL scripts, or migration if the chosen
 If you’re using migrations: follow the framework’s way to store data.
 If you’re not using migrations: store sql files inside a folder: `migrations\scripts`; every script should be named with the following naming convention:
 
-_<YYYYMMDD>_<incremental number>.sql_	e.g.: `20170925_001.sql`
+`<YYYYMMDD>_<incremental number>.sql`	e.g.: `20170925_001.sql`
 
 The project backend should use the MVC pattern and communicate with Frontend using REST APIs.
 
