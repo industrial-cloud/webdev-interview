@@ -10,11 +10,11 @@ If you’re not using migrations: store sql files inside a folder: `migrations\s
 
 `<YYYYMMDD>_<incremental number>.sql`	e.g.: `20170925_001.sql`
 
-The project backend should use the MVC pattern and communicate with Frontend using REST APIs.
+The project backend should use the MVC pattern and communicate with Frontend using REST APIs. You can choose the language that you prefer (js, php, java, etc)
 
 The application should have several controllers, split them as you think is better.
 
-The frontend will be done in html and javascript and will communicate with backend with REST. It can be done as SPA or as a normal application, but the data should be takend with xhr.
+The frontend will be done in html and javascript and will communicate with backend with REST. It can be done as SPA or as a normal application, but the data should be fetched by xhr.
 The css can be done with a framework (e.g. bootstrap) or not. You can use a css pre-processor, if using a pre-processor you will need to implement also some scripts to build the css.
 
 ## Database entities
